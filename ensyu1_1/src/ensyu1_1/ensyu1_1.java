@@ -15,10 +15,10 @@ public class ensyu1_1 {
 	 * 作成日：2023.04.04
 	 */
 	public static void main(String[] args) {
-	//初めてのJavaプログラムと表示されるようにしている。	
-		System.out.println("初めてのJavaプログラム")
-	//画面に出力しています。と表示されるようにしている。
-		System.out.println("画面に出力しています。")
+		//初めてのJavaプログラムと表示されるようにしている。	
+		System.out.println("初めてのJavaプログラム");
+		//画面に出力しています。と表示されるようにしている。
+		System.out.println("画面に出力しています。");
 	}
 
 }
