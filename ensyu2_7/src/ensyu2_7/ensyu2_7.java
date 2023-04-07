@@ -26,16 +26,16 @@ public class ensyu2_7 {
 		
 		//乱数を生み出すための生成器が新規に作られる。
 		
-		Random rand = new Random();
+		Random randomNumber = new Random();
 		
 		//１以上９以下の1桁の整数値をランダムで生成
-		int firstluckyNumber = rand.nextInt(9)+1;
+		int firstluckyNumber = randomNumber.nextInt(9)+1;
 		
 		//-9以上-1以下の1桁の負の整数値をランダムで生成
-		int secondLuckyNumber = rand.nextInt(9)-9;
+		int secondLuckyNumber = randomNumber.nextInt(9)-9;
 		
-		//10以上99以下の2桁の整数値をランダム生成
-		int sihrdLuckyNumber = rand.nextInt(100)-10;
+		//10以上99以下の2桁の整数値をランダム生成し
+		int sihrdLuckyNumber = randomNumber.nextInt(90)+10;
 		
 		//上記でランダム生成された1以上9以下の値を出力する
 		System.out.println(firstluckyNumber);
