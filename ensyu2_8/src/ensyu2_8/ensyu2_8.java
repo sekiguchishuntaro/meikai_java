@@ -38,10 +38,11 @@ public class ensyu2_8 {
 		//secondNumberに0.1.2.3.4.5.6.7.8.9.10の乱数を読み込む
 		int secondNumber = rand.nextInt(11);
 		//secondNumber先ほどの乱数の範囲を-5.-4.-3.-2.-1.0.1.2.3.4.5の乱数に変える
-		secondNumber = secondNumber - 5;
+		int thirdNumber;
+		thirdNumber  = secondNumber - 5;
 		
 		//"カッコ内の結果をコンソール画面に出力する
-		System.out.println("その値の±５の乱数を生成しました。それは" + (firstNumber + secondNumber) + "です。" );
+		System.out.println("その値の±５の乱数を生成しました。それは" + (firstNumber + thirdNumber) + "です。" );
 		
 	
 	
