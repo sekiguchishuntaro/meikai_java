@@ -1,5 +1,5 @@
 package ensyu2_6;
-
+//キーボードから値や文字を入力するための準備
 import java.util.Scanner;
 /*
  * クラス名：ensyu2_6
