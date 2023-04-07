@@ -24,13 +24,13 @@ public class ensyu2_1 {
 		//secondNumberの値は本来変数を入れるが、今回は小数部をもつ実数値
 		secondNumber = 1.8;
 		
-		//firstNumberの値を小数部をもつ実数値に変える
+		//firstNumberの値を表示する
 		System.out.println("firstNumberの値は"+ firstNumber +"です。");
-		//secondNumberの値を小数部をもつ実数値に変える
+		//secondNumberの値を表示する
 		System.out.println("secondNumberの値は" + secondNumber +"です。");
-		//実数値に変えたfirstNumberとsecondNumberの合計をだす。
+		//カッコ内のfirstNumberとsecondNumberの合計を出力する
 		System.out.println("合計は" +(firstNumber + secondNumber) +"です。");
-		//実数値に変えたfirstNumberとsecondNumberの平均をだす。
+		//カッコ内のfirstNumberとsecondNumberの平均を出力する
 		System.out.println("平均は" +(firstNumber + secondNumber)/2+"です。");
 	}
 
