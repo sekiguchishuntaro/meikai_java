@@ -13,7 +13,7 @@ public class ensyu2_10 {
 	
 	/*
 	 * 関数名：main
-	 * メソッドの説明：名前と性と名とを個別にキーボード読みこんで、挨拶を行うプログラムを作成
+	 * メソッドの説明：名前と姓と名とを個別にキーボード読みこんで、挨拶を行うプログラムを作成
 	 * 引数：なし
 	 * 戻り値：なし
 	 * 作成者：関口駿太郎
@@ -24,20 +24,20 @@ public class ensyu2_10 {
 		//キーボードで入力したものを表示させるために促す
 		Scanner standardInput = new Scanner(System.in);
 		
-		//カッコ内の"性"をコンソール画面に出力させる
-		System.out.print("性:");
+		//カッコ内の"姓"をコンソール画面に出力させる
+		System.out.print("姓:");
 		
 		//キーボードで打ちこんだ文字がfirstNumberへと代入される
-		String firstNumber = standardInput.next();
+		String firstName = standardInput.next();
 		
 		//カッコ内の"名"をコンソール画面に出力させる
 		System.out.print("名:");
 		
 		//キーボードで打ちこんだ文字がsecondNumberへと代入される
-		String secondNumber = standardInput.next();
+		String secondName = standardInput.next();
 		
 		//"こんにちは" + firstNumber + secondNumber + "さん。"という文字を出力させ、キーボードで打ちこんだ性と名が並ぶ
-		System.out.println("こんにちは" + firstNumber + secondNumber + "さん。");
+		System.out.println("こんにちは" + firstName + secondName + "さん。");
 		
 		
 	}
