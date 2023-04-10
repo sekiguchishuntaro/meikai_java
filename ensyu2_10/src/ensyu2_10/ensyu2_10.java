@@ -36,7 +36,7 @@ public class ensyu2_10 {
 		//キーボードで打ちこんだ文字がsecondNumberへと代入される
 		String secondName = standardInput.next();
 		
-		//"こんにちは" + firstNumber + secondNumber + "さん。"という文字を出力させ、キーボードで打ちこんだ性と名が並ぶ
+		//"こんにちは" + firstNumber + secondNumber + "さん。"という文字を出力させ、キーボードで打ちこんだ姓と名が並ぶ
 		System.out.println("こんにちは" + firstName + secondName + "さん。");
 		
 		
