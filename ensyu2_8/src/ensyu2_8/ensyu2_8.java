@@ -27,7 +27,7 @@ public class ensyu2_8 {
 		Scanner standardInput = new Scanner(System.in);
 		
 		//乱数を生み出すための生成器が新規に作られる
-		Random rand = new Random();
+		Random randomNumber = new Random();
 		
 		//カッコ内の整数値という文字を表示させる
 		System.out.print("整数値:");
@@ -36,9 +36,12 @@ public class ensyu2_8 {
 		int firstNumber = standardInput.nextInt();
 		
 		//secondNumberに0.1.2.3.4.5.6.7.8.9.10の乱数を読み込む
-		int secondNumber = rand.nextInt(11);
-		//secondNumber先ほどの乱数の範囲を-5.-4.-3.-2.-1.0.1.2.3.4.5の乱数に変える
+		int secondNumber = randomNumber.nextInt(11);
+		
+		//thirdNumberという変数を作り、secondNumberの値を読み込む準備
 		int thirdNumber;
+		
+		//secondNumberを先ほどの乱数の範囲を-5.-4.-3.-2.-1.0.1.2.3.4.5の乱数に変える
 		thirdNumber  = secondNumber - 5;
 		
 		//"カッコ内の結果をコンソール画面に出力する
