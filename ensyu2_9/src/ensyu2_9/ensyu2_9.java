@@ -43,7 +43,7 @@ public class ensyu2_9 {
 		//luckyNumber + secondNumberに実数値が読み込まれ、結果を表示
 		System.out.println("0.0以上10.0未満の実数値は" + (luckyNumber + secondNumber));
 		//unluckyNumber + tihrdNumberに実数値が読み込まれ、結果を表示
-		System.out.println("-1.0以上1.0未満の実数値は" + (unluckyNumber + tihrdNumber));
+		System.out.println("-1.0以上1.0未満の実数値は" + (unluckyNumber - tihrdNumber));
 		
 		
 		
