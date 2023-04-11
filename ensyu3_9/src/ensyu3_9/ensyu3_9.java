@@ -13,6 +13,15 @@ import java.util.Scanner;
 
 public class ensyu3_9 {
 	
+	/*
+	 * 関数名：main
+	 * メソッドの説明：二つの実数値を読み込んで、大きいほうの値を表示するプログラム
+	 * 引数：なし
+	 * 戻り値：なし
+	 * 作成者：関口駿太郎
+	 * 作成日：2023.04.10
+	 */
+	
 	public static void main(String[] args) {
 
 		//キーボードで入力したものを表示させるために促す
