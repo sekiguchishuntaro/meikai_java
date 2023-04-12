@@ -39,13 +39,14 @@ public class Ensyu3_14 {
 		int secondNumber = standardInput.nextInt();
 
 		//二つの整数値が等しい場合を示す
-		if (firstNumber == secondNumber)
+		if (firstNumber == secondNumber) {
 
 			//二つの整数値を入力したときに値が等しい場合、（二つの値は同じです。）と出力する
 			System.out.println("二つの値は同じです。");
-		else {
+		//小さいほうの値と大きいほうの値を両方出すための判断を行う
+		} else {
 			//minimumNumber, bigNumberの値をそれぞれ求めるため宣言
-			int minimumNumber, bigNumber;
+			int minimumNumber, bigNumber = 0;
 
 			//firstNumberがsecondNumberより値が小さいか判断
 			if (firstNumber < secondNumber) {
@@ -55,9 +56,10 @@ public class Ensyu3_14 {
 
 				//secondNumberの値が大きいのであれば、bigNumberとなる
 				bigNumber = secondNumber;
-
-				//firstNumberの値が大きく、secondNumberの値が小さい場合も判断する
-			} else {
+				}
+				 
+			//firstNumberの値が大きく、secondNumberの値が小さい場合も判断する
+			else {
 
 				//firstNumberの値が大きく、secondNumberの値が小さい場合、secondNumberがminimumNumberとして判断される
 				minimumNumber = secondNumber;
