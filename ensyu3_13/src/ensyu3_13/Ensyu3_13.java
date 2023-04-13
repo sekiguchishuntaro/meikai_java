@@ -44,7 +44,7 @@ public class Ensyu3_13 {
 		int thirdNumber = standardInput.nextInt();
 
 		//中央値を指すmedianNumberを作成および宣言
-		int medianNumber;
+		int medianNumber =0;
 
 		//中央値を出すためfirstNumberがsecondNumberより大きい、もしくは等しいことを示す
 		if (firstNumber >= secondNumber)
@@ -63,28 +63,28 @@ public class Ensyu3_13 {
 
 			//firstNumberとsecondNumberが中央値以外の場合
 			else
-				
+
 				//firstNumberとsecondNumberが中央値以外の場合はthirdNumberが中央値となる
 				medianNumber = thirdNumber;
-		
+
 		//firstNumberがthirdNumberより大きい場合を示す
 		else if (firstNumber > thirdNumber)
-			
+
 			//firstNumberがthirdNumberより大きい場合、順番に並べるとfirstNumberが中央値となる
 			medianNumber = firstNumber;
-		
+
 		//secondNumberがthirdNumberより大きい場合を示す
 		else if (secondNumber > thirdNumber)
-			
+
 			//secondNumberがthirdNumberより大きい場合、順番に並べるとthirdNumberが中央値となる
 			medianNumber = thirdNumber;
-		
+
 		//firstNumberとthirdNumberが中央値ではない場合
 		else
-			
+
 			//firstNumberとthirdNumberが中央値ではない場合、残ったthirdNumberが中央値となる
 			medianNumber = secondNumber;
-		
+
 		//値を入力したときに6つの結果と照らし合わせ中央値をだし、（中央値は" + medianNumber + です。）と出力する
 		System.out.println("中央値は" + medianNumber + "です。");
 
