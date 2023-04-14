@@ -39,7 +39,7 @@ public class Ensyu4_5 {
 			} while (firstNumber <= 0);
 		
 		//firstNumberが0より大きいか等しい場合
-		while(firstNumber>=0) {
+		while(firstNumber >= 0) {
 			//firstNumberの値を一つずつ減少させる
 			System.out.println(--firstNumber);
 			}
