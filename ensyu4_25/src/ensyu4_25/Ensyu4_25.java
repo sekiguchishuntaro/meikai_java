@@ -47,7 +47,7 @@ public class Ensyu4_25 {
 			//sumNumberにthirdNumberの値を加える
 			sumNumber += thirdNumber;
 
-		} 
+		}
 		//("合計は" + sumNumber +"です。")と出力する
 		System.out.println("合計は" + sumNumber + "です。");
 		//firstNumberの値が0と等しくない場合

@@ -38,7 +38,7 @@ public class Ensyu4_25_1 {
 		 * secondNumberの値がfirstNumberの値より小さい場合
 		 * secondNumberの値を1ずつ増加させる
 		 */
-		for ( secondNumber = 0; secondNumber < firstNumber; secondNumber++) {
+		for (secondNumber = 0; secondNumber < firstNumber; secondNumber++) {
 			//("整数:")と出力する
 			System.out.print("整数: ");
 			//thirdNumberに代入される値を読み込む
@@ -46,20 +46,20 @@ public class Ensyu4_25_1 {
 			//sumNumber + thirdNumberの値が1000より大きい場合
 			if (sumNumber + thirdNumber > 1000) {
 				//("合計が1000を超えました。")と出力する
-				System.out.println ("合計が1000を超えました。");
+				System.out.println("合計が1000を超えました。");
 				//("次からの数値は無視します。")と出力する
-				System.out.println ("次からの数値は無視します。");
+				System.out.println("次からの数値は無視します。");
 				//for文を抜け出す
 				break;
 
 			}
 			//sumNumberの値にthirdNumberの値を加える
 			sumNumber += thirdNumber;
-			
+
 		}
 		//("合計は" + sumNumber + "です。")と出力する
-		System.out.println ("合計は" + sumNumber + "です。");
-		
+		System.out.println("合計は" + sumNumber + "です。");
+
 		//firstNumberの値が0と等しくない場合
 		if (secondNumber != 0) {
 			//("平均は" + sumNumber / firstNumber +"です。")と出力する
