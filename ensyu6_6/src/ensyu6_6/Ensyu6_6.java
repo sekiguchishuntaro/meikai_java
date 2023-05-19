@@ -31,8 +31,8 @@ public class Ensyu6_6 {
 			System.out.print("人数：");
 			//firstNumberに代入された値を読み込む
 			firstNumber = standardInput.nextInt();
-		//firstNumberの値が0より小さいか等しい場合	
-		}while (firstNumber <= 0);
+			//firstNumberの値が0より小さいか等しい場合	
+		} while (firstNumber <= 0);
 		//配列を生成
 		int[] scoreNumber = new int[firstNumber];
 
@@ -48,13 +48,13 @@ public class Ensyu6_6 {
 		for (int secondNumber = 0; secondNumber < firstNumber; secondNumber++) {
 			//doからwhileまで一度実行
 			do {
-			//((secondNumber + 1) + "番の点数：")を出力する
-			System.out.print((secondNumber + 1) + "番の点数：");
-			
-			//scoreNumber[secondNumber]の値を読み込む
-			scoreNumber[secondNumber] = standardInput.nextInt();
-			//scoreNumber[secondNumber]の値が0より小さい場合
-			}while (scoreNumber[secondNumber] < 0);
+				//((secondNumber + 1) + "番の点数：")を出力する
+				System.out.print((secondNumber + 1) + "番の点数：");
+
+				//scoreNumber[secondNumber]の値を読み込む
+				scoreNumber[secondNumber] = standardInput.nextInt();
+				//scoreNumber[secondNumber]の値が0より小さい場合
+			} while (scoreNumber[secondNumber] < 0);
 			// scoreNumber[secondNumber]の値をsumNumberに加える
 			sumNumber += scoreNumber[secondNumber];
 
